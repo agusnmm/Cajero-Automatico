@@ -20,8 +20,10 @@ var cuentas = [
       document.getElementById("opciones").style.display = "block";
       document.getElementById("password").value = "";
       document.getElementById("password").disabled = true;
+      document.getElementById("robo").style.display = "none";
     } else {
       alert("Contraseña incorrecta. Intenta de nuevo.");
+      document.getElementById("robo").style.display = "block";
     }
   }
   
