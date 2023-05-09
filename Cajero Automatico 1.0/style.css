@@ -23,4 +23,16 @@ body {
 
 #cajeroAutomatico {
     background-image: url(Fondo\ de\ bikini/Squid.webp);
+    background-size: 120% 115%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    text-align: center;
+    
+
+}
+
+#robo {
+    display: block;
+    
 }
