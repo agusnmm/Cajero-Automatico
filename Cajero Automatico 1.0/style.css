@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Spongeboy Me Bob';
-    src: url('./fonts/spongeboy_me_bob.ttf') format('truetype');
+    src: url('./fuentes/Spongeboy\ Me\ Bob.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -23,16 +23,27 @@ body {
 
 #cajeroAutomatico {
     background-image: url(Fondo\ de\ bikini/Squid.webp);
-    background-size: 120% 115%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     
-    text-align: center;
     
-
+    text-align: center;
+    margin-left: 150px;
+    font-size: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    
 }
+
 
 #robo {
-    display: block;
-    
-}
+    margin-left: 82px;
+    width: 50%;
+    border-radius: 20%;
+   
+  }
+  
